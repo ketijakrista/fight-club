@@ -47,7 +47,6 @@ async function createHero(race: string) {
 
   console.log('In createHero function')
   //character = new Mage('Dumbledore')
-  //console.log(`NAME:${character.name}`)
 }
 
 async function app() {
@@ -63,7 +62,6 @@ async function app() {
     },
   ]);
   if (race) {
-    console.log(race);
     console.log(`You chose:`)
     await createHero(race)
   } else {
